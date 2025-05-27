@@ -1,20 +1,14 @@
 {
-  "name": "meteora-frontend",
+  "name": "meteora-backend",
   "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "start": "node index.js"
   },
   "dependencies": {
-    "axios": "^1.6.2",
-    "chart.js": "^4.4.0",
-    "react": "^18.2.0",
-    "react-chartjs-2": "^5.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "vite": "^4.3.9",
-    "@vitejs/plugin-react": "^4.0.0"
+    "@meteora-ag/dlmm": "^1.0.0",
+    "@solana/web3.js": "^1.75.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
   }
 }
